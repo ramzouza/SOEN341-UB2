@@ -1,4 +1,6 @@
-# SOEN341-UB2
+# ASK-ENG
+[![Build Status](https://travis-ci.org/Kerry-G/Ask-Eng.svg?branch=master)](https://travis-ci.org/Kerry-G/Ask-Eng)
+
 An engineering question and answer board.
 
 ## Requirements
@@ -39,6 +41,14 @@ $ npm start
 The frontend server should be running on localhost:3000! Hit Ctrl+C in the shell to end the server process.
 You want the frontend and the backend server running at the same time in different shells. 
 
+This project also uses [SASS](http://sass-lang.com/) as its CSS extension language. Anyone can compile scss/sass files with Ruby; however to 
+make it easier you only need to run the command
+
+```
+$ npm run watch-css
+```
+
+And now whenever a file change, .scss files get compiled and the project is good to run.
 
 ## Authors
 

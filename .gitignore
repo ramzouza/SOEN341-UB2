@@ -24,5 +24,10 @@ __pycache__/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+/static/package-lock.json
+soen341.db
+*.db
 
-static/package-lock\.json
+\.idea/
+
+soen341\.db-journal
